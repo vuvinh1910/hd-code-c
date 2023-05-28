@@ -5,7 +5,7 @@ int main(){
     for(f=1;f<=6;f++)
     {
     scanf("%d",&a[f]);
-    }
+    } // nhập rộng cao của 3 HCN
     b=a[1]*a[2]+a[3]*a[4]+a[5]*a[6];
     if(a[1]>a[2]){m[1]=a[1];k[1]=a[2];} else {m[1]=a[2];k[1]=a[1];}
     if(a[3]>a[4]){m[2]=a[3];k[2]=a[4];} else {m[2]=a[4];k[2]=a[3];}
