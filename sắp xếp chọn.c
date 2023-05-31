@@ -1,21 +1,21 @@
 #include <stdio.h>
+#include <string.h>
 void nhap(char a[]){
 	gets(a);
 }
 int main(){
-	char a[100];
-	nhap(a); int k;
+	char a[100]; int k,t;
+	nhap(a);
     for(int i=0;i<strlen(a);i++){
+        k=a[i];t=i;
 		for(int j=i;j<strlen(a);j++){
-			int min=a[i];
-			if(min>a[j]){
-				min=a[j];
-				k=j;
+			if(k>a[j]){
+			    t=j;
 			}
-		}
-		int t=a[i];
-		a[i]=a[k];
-		a[k]=t;
-	}
-	printf("%s",a);
+	    }
+	    char b=a[t];
+	    a[t]=a[i];
+	    a[i]=b;
+    }
+    printf("%s",a);
 }
