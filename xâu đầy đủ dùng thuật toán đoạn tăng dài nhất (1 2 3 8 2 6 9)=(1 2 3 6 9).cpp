@@ -30,6 +30,7 @@ int lis(char c[]) {
 int main() {
     char c[1000];
     scanf("%s", c);
-    printf("%d\n", lis(c)); // aiemckgobjfndlhp
+    printf("%d\n", lis(c)); 
     return 0;
-}
+}  // Một xâu được gọi là đầy đủ nếu xóa đi 0 hoặc nhiều hơn các ký tự từ xâu đó ta thu được xâu abcdefghijklmnopqrstuvwxyz
+//Cho một xâu ký tự chỉ bao gồm các chữ cái viết thường. Hãy tính số ký tự phải chèn thêm ít nhất (vào bất cứ chỗ nào) để có thể chuyển xâu đó sang dạng đầy đủ.
