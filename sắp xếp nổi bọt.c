@@ -24,10 +24,10 @@ int main(){
 				t=1;
 			}
 		}
-        if(t==1){
-            y++;
-        printf("Buoc %d: ",y);
-        xuat(b,a);
-        }
+        	if(t==1){
+            		y++;
+        		printf("Buoc %d: ",y);
+        		xuat(b,a);
+        	}
 	}
 }
